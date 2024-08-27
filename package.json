@@ -131,7 +131,7 @@
     "@googlemaps/js-api-loader": "1.12.9",
     "@mapbox/geojsonhint": "2.0.1",
     "@mapbox/togeojson": "0.16.0",
-    "@mapstore/patcher": "https://github.com/geosolutions-it/Patcher/tarball/master",
+    "@mapstore/patcher": "https://github.com/geosolutions-it/Patcher/tarball/34c9e79",
     "@turf/along": "6.5.0",
     "@turf/area": "6.5.0",
     "@turf/bbox": "4.1.0",
