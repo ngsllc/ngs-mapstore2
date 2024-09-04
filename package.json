@@ -114,11 +114,7 @@
     "style-loader": "2.0.0",
     "terser": "5.18.1",
     "url-loader": "0.5.7",
-    "vusion-webfonts-generator": "0.4.1",
-    "webpack": "5.54.0",
-    "webpack-bundle-size-analyzer": "2.0.2",
-    "webpack-cli": "4.10.0",
-    "webpack-dev-server": "3.11.0"
+    "vusion-webfonts-generator": "0.4.1"
   },
   "dependencies": {
     "@carnesen/redux-add-action-listener-enhancer": "0.0.1",
