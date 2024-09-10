@@ -190,7 +190,8 @@ module.exports = (...args) => mapArgumentsToObject(args, ({
             stream: false,
             http: false,
             https: false,
-            zlib: false
+            zlib: false,
+            crypto: false
         },
         extensions: [".js", ".jsx"],
         alias: assign({}, {
