@@ -28,7 +28,7 @@ class HomeDescription extends React.Component {
     };
 
     static defaultProps = {
-        name: 'CoreSpatial Portal',
+        name: 'MapStore',
         className: 'ms-home-description',
         style: {}
     };
@@ -36,9 +36,10 @@ class HomeDescription extends React.Component {
     render() {
         return (
             <Jumbotron className={this.props.className} style={this.props.style}>
-                <Grid className="container">
+                <Grid>
                     <Row>
-                        <Col xs={12} className="text-center centered-content">
+                        <Col xs={12} className="text-center">
+                            <h1>{this.props.name}</h1>
                             <p>
                                 <HTML msgId="home.shortDescription"/>
                             </p>
