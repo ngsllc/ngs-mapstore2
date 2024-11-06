@@ -66,18 +66,12 @@ class ToolsContainer extends React.Component {
         panelStyle: PropTypes.object,
         panelClassName: PropTypes.string,
         activePanel: PropTypes.string,
-        toolCfg: PropTypes.object,
-        title: PropTypes.string,
-        renderTitle: PropTypes.bool
+        toolCfg: PropTypes.object
     };
 
     static contextTypes = {
         messages: PropTypes.object,
         router: PropTypes.object
-    };
-
-    static defaultProps = {
-        renderTitle: false
     };
 
     static defaultProps = {
@@ -94,8 +88,7 @@ class ToolsContainer extends React.Component {
         panelStyle: {},
         panelClassName: "tools-container-panel",
         toolSize: null,
-        toolCfg: {},
-        title: "CoreSpatial Portal"
+        toolCfg: {}
     };
 
     getToolConfig = (tool) => {
@@ -193,7 +186,6 @@ class ToolsContainer extends React.Component {
             <span id={this.props.id} style={this.props.containerWrapperStyle}>
                 <Container id={this.props.id + "-container"} style={this.props.style} className={this.props.className}>
                     {this.renderTools()}
-                    {this.props.renderTitle && this.props.title && <div className="navbar-title">{this.props.title}</div>}
                 </Container>
                 {this.renderPanels()}
             </span>
