@@ -10,7 +10,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <mapstore2.version>DEV</mapstore2.version>
         <tomcat.version>9.0.90</tomcat.version>
-        <tomcat.port>8080</tomcat.port>
+        <tomcat.port>8082</tomcat.port>
         <geostore-webapp.version>2.2-SNAPSHOT</geostore-webapp.version>
         <print-lib.version>2.3.1</print-lib.version>
         <http_proxy.version>1.6-SNAPSHOT</http_proxy.version>
@@ -22,7 +22,7 @@
         <ehcache-web.version>2.0.4</ehcache-web.version>
         <commons-pool.version>1.5.4</commons-pool.version>
         <jaxws-api.version>2.3.1</jaxws-api.version>
-        <spring.security.version>5.7.12</spring.security.version>
+        <spring.security.version>5.7.13</spring.security.version>
         <log4j-version>2.19.0</log4j-version>
         <jackson-version>2.16.1</jackson-version>
         <json-patch.version>1.12</json-patch.version>
@@ -252,6 +252,16 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-expression</artifactId>
                 <version>5.3.39</version>
+            </dependency>
+            <dependency>
+                <groupId>xalan</groupId>
+                <artifactId>xalan</artifactId>
+                <version>2.7.3</version>
+            </dependency>
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>20231013</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
